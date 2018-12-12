@@ -12,8 +12,6 @@
 		5773A50C2192C867000CA0AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5773A50A2192C867000CA0AD /* Main.storyboard */; };
 		5773A50E2192C869000CA0AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5773A50D2192C869000CA0AD /* Assets.xcassets */; };
 		5773A5112192C869000CA0AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5773A50F2192C869000CA0AD /* LaunchScreen.storyboard */; };
-		5773A51C2192C869000CA0AD /* LoadURL_SpinerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5773A51B2192C869000CA0AD /* LoadURL_SpinerTests.swift */; };
-		5773A5272192C869000CA0AD /* LoadURL_SpinerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5773A5262192C869000CA0AD /* LoadURL_SpinerUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +40,7 @@
 		5773A5102192C869000CA0AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5773A5122192C869000CA0AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5773A5172192C869000CA0AD /* LoadURL+SpinerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LoadURL+SpinerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5773A51B2192C869000CA0AD /* LoadURL_SpinerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadURL_SpinerTests.swift; sourceTree = "<group>"; };
-		5773A51D2192C869000CA0AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5773A5222192C869000CA0AD /* LoadURL+SpinerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LoadURL+SpinerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5773A5262192C869000CA0AD /* LoadURL_SpinerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadURL_SpinerUITests.swift; sourceTree = "<group>"; };
-		5773A5282192C869000CA0AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				5773A5052192C867000CA0AD /* LoadURL+Spiner */,
-				5773A51A2192C869000CA0AD /* LoadURL+SpinerTests */,
-				5773A5252192C869000CA0AD /* LoadURL+SpinerUITests */,
 				5773A5042192C867000CA0AD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,24 +97,6 @@
 				5773A5122192C869000CA0AD /* Info.plist */,
 			);
 			path = "LoadURL+Spiner";
-			sourceTree = "<group>";
-		};
-		5773A51A2192C869000CA0AD /* LoadURL+SpinerTests */ = {
-			isa = PBXGroup;
-			children = (
-				5773A51B2192C869000CA0AD /* LoadURL_SpinerTests.swift */,
-				5773A51D2192C869000CA0AD /* Info.plist */,
-			);
-			path = "LoadURL+SpinerTests";
-			sourceTree = "<group>";
-		};
-		5773A5252192C869000CA0AD /* LoadURL+SpinerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5773A5262192C869000CA0AD /* LoadURL_SpinerUITests.swift */,
-				5773A5282192C869000CA0AD /* Info.plist */,
-			);
-			path = "LoadURL+SpinerUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5773A51C2192C869000CA0AD /* LoadURL_SpinerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5773A5272192C869000CA0AD /* LoadURL_SpinerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
